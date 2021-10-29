@@ -8,9 +8,9 @@ Things you'll need:
     • Obviously a 32 bit Intel Mac with a password protected account (you need a password so that Terminal will not complain about it)
 
 Now let's go!
-1. Go to your Windows machine and download your Linux distro of your choice (Note: it MUST be a 32 bit distro and should have a light DE. In this case, I'm using Linux Mint 19.3 Tricia MATE 32 bit)
+1. Go to your Windows machine and download your Linux distro of your choice (Note: it MUST be a 32 bit distro and should have a DE that is known to run smooth on your Mac. In this case, I'm using Linux Mint 19.3 Tricia MATE 32 bit)
 
-2. While your distro is downloading, download the latest version of  Rufus.
+2. While your distro is downloading, download the latest version of  Rufus (Link: https://rufus.ie/en/ )
 
 3. If both of the files have downloaded, connect your USB drive.
 
@@ -30,7 +30,7 @@ Now let's go!
 10. Select "FreeDOS" in the drop-down to the right of Create a Bootable Disk Using.
 
 11. Click the disc icon to the right of FreeDOS. The Open dialog box appears. 
-12. Navigate to the location where you downloaded the Ubuntu installer, click the ISO associated with the Ubuntu installer, and then click "Open." Where you previously selected FreeDOS in the Format Options section now says "ISO Image. A Download Required message may appear, prompting you to download additional Syslinux files to complete creating this file.
+12. Navigate to the location where you downloaded the Linux installer, click the ISO associated with the Linux installer, and then click "Open." Where you previously selected FreeDOS in the Format Options section now says "ISO Image. A Download Required message may appear, prompting you to download additional Syslinux files to complete creating this file.
 
 13. Click "Yes" to download any additional Syslinux files. Another message appears warning you that the image you selected is an ISOHybrid image.
 
@@ -38,11 +38,11 @@ Now let's go!
 
 15. Click "OK."
 
-16.Click "Start" the Rufus USB Installer begins creating the bootable USB drive. The creation of the bootable USB Ubuntu installer will be complete when the green progress bar at the bottom of the Rufus application is entirely green, and when the message below the progress bar says Ready. 
+16. Click "Start" the Rufus USB Installer begins creating the bootable USB drive. The creation of the bootable USB Linux installer will be complete when the green progress bar at the bottom of the Rufus application is entirely green, and when the message below the progress bar says Ready. 
 
 17. Click "Close" when Rufus is completed creating the bootable USB Ubuntu installer, and then remove the thumb drive from that computer.
 
-18. Download the latest version of rEFInd from SourceForge.
+18. Download the latest version of rEFInd from SourceForge (Link: https://sourceforge.net/projects/refind
 
 19. Copy the rEFInd binary zip file to another USB drive with FAT32 format.
 
@@ -58,7 +58,7 @@ If you have completed all the steps above, go ahead and plug the USB drive to yo
 Restart your Mac and you’ll be presented with this screen
 ![image](https://user-images.githubusercontent.com/76607426/139415627-3c363215-d491-4911-8faf-8d9649e24e59.png)
 
-24. Go to Linux (Legacy) from <your flash drive> and press the Return key. It will boot your Linux USB drive in BIOS emulation mode.
+24. Go to (Linux (Legacy) from <your-flash-drive>) and press the Return key. It will boot your Linux USB drive in BIOS emulation mode.
 
 25. Select the "Linux Mint" (or the name of your particular distro) option.
   ![image](https://user-images.githubusercontent.com/76607426/139415998-046039bd-123c-4a09-ad1b-76fe1ee9d5be.png)
@@ -68,7 +68,7 @@ Note: The wording will vary slightly depending on the version of your distro’s
 
 27. If your Mac has booted to the live desktop, check if your Wifi, Bluetooth and all other devices work.
 
-28. After checking, double-click Install Linux Mint. This disc-shaped icon is on the desktop. A window will open.
+28. After checking, double-click "Install Linux Mint" (or your distro's install file). This disc-shaped icon is on the desktop. A window will open.
 
 29. Select a setup language. Click the language that you want to use, then click Continue in the bottom-right corner of the window.
   ![image](https://user-images.githubusercontent.com/76607426/139416091-8c0921c3-298c-4fd5-93a3-7091222bfcea.png)
@@ -102,4 +102,4 @@ Note: The wording will vary slightly depending on the version of your distro’s
 39. After selecting it, your Mac will now boot into your newly installed partition of your Linux distro. The first boot will take quite a while so be patient. When it finally finishes booting, you’ll reach your desktop. You will now be able to use Linux on your computer like any other operating system.
 ![image](https://user-images.githubusercontent.com/76607426/139417205-9e938d1d-b445-4443-8c65-92915f280b90.png)
 
-Congratulations! You have installed Linux on your old Mac!
+Congratulations! You installed Linux on your old Mac!
